@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "infra-terraform",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "terraform": {
+      "status": "ok",
+      "version": "1.6.6"
+    },
+    "aws": {
+      "status": "ok",
+      "region": "us-east-1"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "disk_space_available": "50GB"
+  },
+  "alerts": []
+}
